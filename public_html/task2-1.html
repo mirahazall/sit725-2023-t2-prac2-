@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Task 2.1P</title>
+    
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        h1 {
+            color: #00c8ff;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        div {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+            font-size: 1.1em;
+        }
+
+        input {
+            width: 200px;
+            padding: 8px;
+            font-size: 1em;
+        }
+
+        button {
+            background-color: #00c8ff;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border: none;
+        }
+
+        button:hover {
+            background-color: #0099cc;
+        }
+
+        #result {
+            color: #009933;
+            font-size: 1.3em;
+            margin-top: 15px;
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <h1>Welcome to My First Web Server</h1>
+    <p>This is a simple web page served by a Node.js web server.</p>
+    <div>
+        <label for="number1">Number 1:</label>
+        <input type="text" id="number1" />
+    </div>
+    <div>
+        <label for="number2">Number 2:</label>
+        <input type="text" id="number2" />
+    </div>
+    <button onclick="addNumbers()">Add Numbers</button>
+    <p id="result"></p>
+    <script src="/task2-1.js"></script>
+    <script src="/addnumbers.js"></script>
+</body>
+</html>
